@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "181668953837",
+    "project_id": "gpgold-91ad9",
+    "storage_bucket": "gpgold-91ad9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181668953837:android:e27a97cfe5f5c0385296e4",
+        "android_client_info": {
+          "package_name": "com.gdgold.gdgold"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181668953837-v56mt2430ftmnh7hgffi78365icurbg1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB7zNl09ElJTJlCC9GwFMVyC9Zzrrg194"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181668953837-v56mt2430ftmnh7hgffi78365icurbg1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
