@@ -76,6 +76,8 @@ class _MyAppState extends State<MyApp> {
       supportedLocales: const [
         Locale('en'),
         Locale('gu'),
+
+
         Locale('hi')
       ],
       localizationsDelegates: const [
