@@ -28,7 +28,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     // TODO: implement initState
     getSharePreference();
-    getFirebaseServerToken();
+    // getFirebaseServerToken();
     Future.delayed(const Duration(seconds: 4), () {
 
       Get.offAll(isLogin ? HomeScreen() : LoginScreen(), transition: Transition.rightToLeft, duration: const Duration(milliseconds: 300));
@@ -36,12 +36,12 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
   }
 
-  getFirebaseServerToken() async {
-    GetServerKey getServerKey = GetServerKey();
-    String accessToken = await getServerKey.getServerKeyToken();
-    print("Server accessToken ${accessToken}");
-    SharPreferences.setString('FirebaseServerToken', accessToken);
-  }
+  // getFirebaseServerToken() async {
+  //   GetServerKey getServerKey = GetServerKey();
+  //   String accessToken = await getServerKey.getServerKeyToken();
+  //   print("Server accessToken ${accessToken}");
+  //   SharPreferences.setString('FirebaseServerToken', accessToken);
+  // }
 
   @override
   Widget build(BuildContext context) {
